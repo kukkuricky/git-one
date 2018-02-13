@@ -1,0 +1,44 @@
+λ git --version
+git version 2.16.1.windows.4
+
+λ git config --global user.name gitter
+
+λ git config --global user.email gitter@gits.com
+
+λ git config user.email
+gitter@gits.com
+
+λ Atom "refresnce sites.txt"
+This command opens refrences site.txt in atom IDE
+
+C:\Users\Pratik\Desktop\git-one
+λ git init
+Initialized empty Git repository in C:/Users/Pratik/Desktop/git-one/.git/
+
+C:\Users\Pratik\Desktop\git-one (master -> origin)
+λ touch index.html
+This cmd creates a file index.html in git-one folder/git-Repo
+
+λ git status
+To check the status
+
+λ git add index.html
+To add ndex.html fiel to staging
+
+λ git add .
+To add all files in Repos to staging
+
+λ git commit -m "description about changes done"
+To commit the repo. This is create a ref-id that will indicate the changes done during the time
+
+λ git log
+λ git log --oneline
+To view the log.
+
+λ git checkout <ref-id>
+
+λ git revert
+
+λ git reset
+
+<<look for all these checkout/revert/reset in details>>
